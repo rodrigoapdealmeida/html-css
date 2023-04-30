@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* 
+    Em HTML é id = em CSS é #
+    Em HTML é class = em CSS .
+
+    obs:. id é único e class é multiplo
+    podemos inserir uma id e class em um mesmo elemento, e duas configuração de class separa por espaço.
+*/
+
+body {
+    background-color: rgb(185, 255, 185);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #2CD447;
+}
+h1#principal{
+    text-align: center;
+    background-color: #2CD4478A;
+    color: white;
+}
+h2 {
+    color: #80D42C;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.basico {
+    color:#80D42C;
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avançado {
+    color: red;
+}
+
+.fundo {
+    background-color: #34F68A;
+}
